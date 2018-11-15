@@ -1,0 +1,8 @@
+---
+- hosts: 10.177.168.106
+  tasks:
+        - name: Create file
+          file:
+              path: /tmp/yallo
+              state: touch
+...
