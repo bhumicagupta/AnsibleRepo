@@ -3,6 +3,6 @@
   tasks:
         - name: Create file
           file:
-              path: /home/ubuntu/newfile
+              path: /home/ubuntu/newfilee
               state: touch
 ...
