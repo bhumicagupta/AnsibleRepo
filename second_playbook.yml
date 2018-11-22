@@ -1,1 +1,8 @@
-
+---
+- hosts: [ubuntu_hosts]
+  tasks:
+        - name: Create file
+          file:
+              path: /home/ubuntu/newfile
+              state: touch
+...
