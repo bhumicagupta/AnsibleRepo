@@ -1,7 +1,6 @@
 ---
 - hosts: [ubuntu_hosts]
   remote_user: ubuntu
-  ansible_user: ubuntu
   become: yes
   become_method: sudo
   tasks:
