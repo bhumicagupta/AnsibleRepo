@@ -3,6 +3,6 @@
   tasks:
         - name: Create file
           file:
-              path: /tmp/yallof
+              path: /tmp/yalloo
               state: touch
 ...
