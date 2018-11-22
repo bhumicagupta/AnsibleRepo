@@ -1,5 +1,5 @@
 ---
-- hosts: 10.177.168.104
+- hosts: [ubuntu_hosts]
   tasks:
         - name: Create file
           file:
