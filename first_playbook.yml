@@ -1,6 +1,8 @@
 ---
 - hosts: [ubuntu_hosts]
   remote_user: ubuntu
+  become: yes
+  become_method: sudo
   tasks:
         - name: Create file
           file:
